@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitAddin.Icon.Example", "RevitAddin.Icon.Example\RevitAddin.Icon.Example.csproj", "{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{D1EE1E8F-357F-4FCC-929B-78DFC6900C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{372F3C47-52A7-4DB1-BC05-3F8056E317A8}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2024|Any CPU = 2024|Any CPU
+		Debug 2024|Any CPU = Debug 2024|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}.2024|Any CPU.ActiveCfg = 2024|Any CPU
+		{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}.2024|Any CPU.Build.0 = 2024|Any CPU
+		{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}.Debug 2024|Any CPU.ActiveCfg = Debug 2024|Any CPU
+		{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}.Debug 2024|Any CPU.Build.0 = Debug 2024|Any CPU
+		{D1EE1E8F-357F-4FCC-929B-78DFC6900C6B}.2024|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EE1E8F-357F-4FCC-929B-78DFC6900C6B}.2024|Any CPU.Build.0 = Debug|Any CPU
+		{D1EE1E8F-357F-4FCC-929B-78DFC6900C6B}.Debug 2024|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EE1E8F-357F-4FCC-929B-78DFC6900C6B}.Debug 2024|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
