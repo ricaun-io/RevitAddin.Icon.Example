@@ -64,7 +64,7 @@
     <When Condition="$(Configuration.Contains('2025'))">
       <PropertyGroup>
         <RevitVersion>2025</RevitVersion>
-        <TargetFramework>net7.0-windows</TargetFramework>
+        <TargetFramework>net8.0-windows</TargetFramework>
       </PropertyGroup>
     </When>
     <Otherwise>
@@ -108,7 +108,7 @@
 
   <PropertyGroup>
     <PackageId>RevitAddin.Icon.Example</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <ProjectGuid>{A206D7F5-A69C-4011-BD5B-9E419B5DE41E}</ProjectGuid>
   </PropertyGroup>
 

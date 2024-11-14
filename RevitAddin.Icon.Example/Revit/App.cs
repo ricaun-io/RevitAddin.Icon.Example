@@ -14,7 +14,7 @@ namespace RevitAddin.Icon.Example.Revit
         {
             ribbonImageThemeSelector = new RibbonImageThemeSelector(application);
 
-            var icons = new[] { "Grey", "Red", "Yellow", "Green", "Cyan", "Blue", "Purple", "Pink", "Brown" };
+            var icons = new[] { "Grey", "Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Purple", "Pink", "Brown" };
 
             ribbonPanel = application.CreatePanel("RevitAddin.Icon.Example");
             foreach (var icon in icons)
