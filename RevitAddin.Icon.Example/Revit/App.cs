@@ -9,23 +9,16 @@ namespace RevitAddin.Icon.Example.Revit
     public class App : IExternalApplication
     {
         private static RibbonPanel ribbonPanel;
-        private static RibbonImageThemeSelector ribbonImageThemeSelector;
         public Result OnStartup(UIControlledApplication application)
         {
-            ribbonImageThemeSelector = new RibbonImageThemeSelector(application);
-
             var icons = new[] { "Grey", "Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Purple", "Pink", "Brown" };
 
             ribbonPanel = application.CreatePanel("RevitAddin.Icon.Example");
             foreach (var icon in icons)
             {
                 ribbonPanel.CreatePushButton<Commands.Command>(icon)
-                    .SetLargeImage($"Resources/Images/Cube-{icon}.ico");
+                    .SetLargeImage($"Resources/Images/Cube-{icon}-Light.ico");
             }
-
-            ribbonImageThemeSelector.AddRibbonItem(ribbonPanel.GetRibbonItems());
-
-            ribbonImageThemeSelector.UpdateImages();
 
             return Result.Succeeded;
         }
@@ -33,7 +26,6 @@ namespace RevitAddin.Icon.Example.Revit
         public Result OnShutdown(UIControlledApplication application)
         {
             ribbonPanel?.Remove();
-            ribbonImageThemeSelector?.Dispose();
             return Result.Succeeded;
         }
     }

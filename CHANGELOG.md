@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.1.0] / 2024-11-14
 - Update `ricaun.Revit.UI` to `0.7.*`
 - Add missing `Orange` color
+- Obsolete `RibbonImageThemeSelector` to use `ricaun.Revit.UI`.
+- Rename Images to have `Light` in the name to enable the theme change to `Dark`.
 
 ## [1.0.1] / 2024-01-11
 - Add Revit version 2025 configuration

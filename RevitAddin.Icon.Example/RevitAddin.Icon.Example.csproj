@@ -136,25 +136,25 @@
 
   <ItemGroup>
     <None Remove="Resources\Images\Cube-Blue-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Blue.ico" />
+    <None Remove="Resources\Images\Cube-Blue-Light.ico" />
     <None Remove="Resources\Images\Cube-Brown-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Brown.ico" />
+    <None Remove="Resources\Images\Cube-Brown-Light.ico" />
     <None Remove="Resources\Images\Cube-Cyan-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Cyan.ico" />
+    <None Remove="Resources\Images\Cube-Cyan-Light.ico" />
     <None Remove="Resources\Images\Cube-Green-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Green.ico" />
+    <None Remove="Resources\Images\Cube-Green-Light.ico" />
     <None Remove="Resources\Images\Cube-Grey-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Grey.ico" />
+    <None Remove="Resources\Images\Cube-Grey-Light.ico" />
     <None Remove="Resources\Images\Cube-Orange-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Orange.ico" />
+    <None Remove="Resources\Images\Cube-Orange-Light.ico" />
     <None Remove="Resources\Images\Cube-Pink-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Pink.ico" />
+    <None Remove="Resources\Images\Cube-Pink-Light.ico" />
     <None Remove="Resources\Images\Cube-Purple-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Purple.ico" />
+    <None Remove="Resources\Images\Cube-Purple-Light.ico" />
     <None Remove="Resources\Images\Cube-Red-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Red.ico" />
+    <None Remove="Resources\Images\Cube-Red-Light.ico" />
     <None Remove="Resources\Images\Cube-Yellow-Dark.ico" />
-    <None Remove="Resources\Images\Cube-Yellow.ico" />
+    <None Remove="Resources\Images\Cube-Yellow-Light.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -169,25 +169,25 @@
 
   <ItemGroup>
     <Resource Include="Resources\Images\Cube-Blue-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Blue.ico" />
+    <Resource Include="Resources\Images\Cube-Blue-Light.ico" />
     <Resource Include="Resources\Images\Cube-Brown-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Brown.ico" />
+    <Resource Include="Resources\Images\Cube-Brown-Light.ico" />
     <Resource Include="Resources\Images\Cube-Cyan-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Cyan.ico" />
+    <Resource Include="Resources\Images\Cube-Cyan-Light.ico" />
     <Resource Include="Resources\Images\Cube-Green-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Green.ico" />
+    <Resource Include="Resources\Images\Cube-Green-Light.ico" />
     <Resource Include="Resources\Images\Cube-Grey-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Grey.ico" />
+    <Resource Include="Resources\Images\Cube-Grey-Light.ico" />
     <Resource Include="Resources\Images\Cube-Orange-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Orange.ico" />
+    <Resource Include="Resources\Images\Cube-Orange-Light.ico" />
     <Resource Include="Resources\Images\Cube-Pink-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Pink.ico" />
+    <Resource Include="Resources\Images\Cube-Pink-Light.ico" />
     <Resource Include="Resources\Images\Cube-Purple-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Purple.ico" />
+    <Resource Include="Resources\Images\Cube-Purple-Light.ico" />
     <Resource Include="Resources\Images\Cube-Red-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Red.ico" />
+    <Resource Include="Resources\Images\Cube-Red-Light.ico" />
     <Resource Include="Resources\Images\Cube-Yellow-Dark.ico" />
-    <Resource Include="Resources\Images\Cube-Yellow.ico" />
+    <Resource Include="Resources\Images\Cube-Yellow-Light.ico" />
     <Resource Include="Resources\Revit.ico" />
   </ItemGroup>
 
