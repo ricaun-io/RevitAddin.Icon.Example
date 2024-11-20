@@ -6,6 +6,7 @@ using System.Windows.Media.Imaging;
 
 namespace RevitAddin.Icon.Example.Revit
 {
+    [Obsolete("ricaun.Revit.UI have the same feature by default if the name of image have `light` and `dark`")]
     public class RibbonImageThemeSelector : IDisposable
     {
         private readonly UIControlledApplication application;
