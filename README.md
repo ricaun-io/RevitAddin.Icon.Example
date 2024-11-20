@@ -8,7 +8,7 @@
 
 Example to swap the icons when theme change in Revit 2024/2025 using the [Autodesk.Icon.Example](https://github.com/ricaun-io/Autodesk.Icon.Example) icons.
 
-This project uses the [ricaun.Revit.UI](https://www.nuget.org/packages/ricaun.Revit.UI) library to handle the theme change and the selection of the icons in [high resolution](#high-resolution-icons) when a `.tiff` file is used.
+This project uses the [ricaun.Revit.UI](https://www.nuget.org/packages/ricaun.Revit.UI) library to handle the theme change and the selection of the icons in [high resolution](#high-resolution-icons-for-revit) when a `.tiff` file is used.
 
 ![Images-2x](assets/Images-2x.gif)
 
@@ -25,7 +25,7 @@ Video in English with the creation of this project.
 [![VideoIma1]][Video1]
 [![VideoIma2]][Video2]
 
-### High resolution icons for Revit {#high-resolution-icons}
+### High resolution icons for Revit
 
 [![VideoIma3]][Video3]
 
